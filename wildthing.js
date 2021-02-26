@@ -8,11 +8,11 @@ let options    = {};
 let hosts      = [];
 let hosts_file = (process.platform == 'win32') ? process.env.windir+'\\System32\\drivers\\etc\\hosts' : '/etc/hosts';
 
-if (fs.existsSync("server.conf"))
-	options = JSON.parse(fs.readFileSync("server.conf", "utf8"));
+if (fs.existsSync("wildthing.conf"))
+	options = JSON.parse(fs.readFileSync("wildthing.conf", "utf8"));
 else
 {
-	console.error("Exiting: no server.conf file found");
+	console.error("Exiting: no wildthing.conf file found");
 	process.exit();
 }
 

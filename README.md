@@ -11,5 +11,5 @@ These files will be watched for changes:
 
 #### /etc/hosts example
 
-1.1.1.1	*.foot.com
+1.1.1.1	*.foot.com\
 2.2.2.2	*.sack.com

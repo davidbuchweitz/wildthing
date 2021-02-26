@@ -2,7 +2,7 @@
 
 Allows the use of wildcards directly in `/etc/hosts` or `%windir%\System32\drivers\etc\hosts`.
 
-These files will be watched for changes:
+The server will reload it's records when it detects changes in the hosts file.
 
 #### C:\Windows\System32\drivers\etc\hosts example
 

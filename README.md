@@ -6,10 +6,10 @@ These files will be watched for changes:
 
 #### C:\Windows\System32\drivers\etc\hosts example
 
-1.1.1.1		*.whatevs.com\
-2.2.2.2		*.angel.com
+1.1.1.1		*.foot.com\
+2.2.2.2		*.sack.com
 
 #### /etc/hosts example
 
-1.1.1.1	*.whatevs.com blah\
-2.2.2.2	*.angel.com angel
+1.1.1.1	*.foot.com
+2.2.2.2	*.sack.com
